@@ -1,0 +1,174 @@
+(footprint "WLCSP-8_Winbond_BY"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "CSP 8 0.5")
+	(property "Reference" "REF**"
+		(at 0 -2.142 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "58b9402e-a909-440d-910a-bae5dd7cf37a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WLCSP-8_Winbond_BY"
+		(at 0 2.142 0)
+		(layer "F.Fab")
+		(uuid "b6a40cfb-3a1a-4d47-8bf3-e59fd8ba3139")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d1a741b-399b-4297-bf31-74b72fde9741")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ad8e3b7-c615-4318-a006-62bb82a93188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.729 -0.902)
+		(end 0.729 -0.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad0491e1-c799-4c40-836f-26cd4dfa4ac9")
+	)
+	(fp_line
+		(start -0.729 0.902)
+		(end -0.729 -0.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48777989-c5c4-42ac-a06c-d1d81ad31f93")
+	)
+	(fp_line
+		(start 0.729 -0.902)
+		(end 0.729 0.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e69da444-29ca-4c3d-92c3-354dc0a49ffe")
+	)
+	(fp_line
+		(start 0.729 0.902)
+		(end -0.729 0.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68de0cfe-a23f-4a18-91d3-e5627b897963")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "e30069cd-638a-4b71-bb7f-50d4b95b1c39")
+		(effects
+			(font
+				(size 0.53 0.53)
+				(thickness 0.0795)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3adae4e3-c05c-4168-8e5e-b0aead8f2814")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2df2c9b5-a80e-4dbc-bf35-f208ec368d9a")
+	)
+	(pad "B1" smd circle
+		(at -0.2 -0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8254bebb-5025-404a-8645-9752fc504129")
+	)
+	(pad "B2" smd circle
+		(at 0.2 -0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ff0beb9-0878-4d01-851b-0bc97583f536")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f06f3de0-5439-4b8a-bce5-ce07be960d06")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.2)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "718a86a9-b9ac-4502-a8e4-b7296f185a2d")
+	)
+	(pad "D1" smd circle
+		(at -0.2 0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f648a1ae-75e9-4be5-a4c1-95b87f3334a5")
+	)
+	(pad "D2" smd circle
+		(at 0.2 0.6)
+		(size 0.2 0.2)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84a93754-c27d-44ae-aad4-e8f7b9e674b4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_CSP.3dshapes/WLCSP-8_1.551x2.284mm_Layout2x4_P0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

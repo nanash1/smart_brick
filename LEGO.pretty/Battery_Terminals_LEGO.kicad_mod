@@ -1,0 +1,205 @@
+(footprint "Battery_Terminals_LEGO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d8631d7f-4801-42c4-90af-18700a19b52c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Terminals_LEGO"
+		(at 0 -5.5 0)
+		(layer "F.Fab")
+		(uuid "6dbab993-6b41-4a8b-b198-828b6de27483")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "949b3d20-d2f5-497f-9ea5-3fc9a3cc676c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef856cc-4c85-4a06-a42b-a4fca47fc9a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -4)
+		(end 1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "727bc5fc-6ed4-4837-bd6f-fd05361d9a15")
+	)
+	(fp_line
+		(start -1.5 -1)
+		(end -1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1946c1bf-91eb-4dfb-937b-2b0ae6c1dc75")
+	)
+	(fp_line
+		(start -1.5 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28913bbf-8b60-4be6-a03c-98ac00256643")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "000bd372-3e63-48f2-a5bf-45a2ca9491e1")
+	)
+	(fp_line
+		(start -1.5 4)
+		(end -1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c0d3eff-a348-41b1-bc37-bc217b7a5feb")
+	)
+	(fp_line
+		(start -1.5 4)
+		(end 1.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aee47fc1-d95b-4fc0-a9bd-2e0788d81efa")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24c1bf86-ce6b-46a0-8919-de01a6b5cf23")
+	)
+	(fp_line
+		(start 1.5 4)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ca67453-b3a6-4d76-89ae-e1b5f5af3c50")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f03bf99b-0be2-419a-9d95-9bc8613c76c1")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 -3.45 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6114ad9f-c18d-40b5-afbc-96918777b30f")
+	)
+	(pad "1" smd rect
+		(at -0.85 -1.55 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c04d363d-4136-46be-84ba-35a4c598cd5a")
+	)
+	(pad "1" smd rect
+		(at 0.85 -3.45 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f710768-2887-4c27-a73c-4219e1457ce6")
+	)
+	(pad "1" smd rect
+		(at 0.85 -1.55 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa056fd4-3947-4753-8ff7-a73bdf0e2616")
+	)
+	(pad "2" smd rect
+		(at -0.85 1.55 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99d33817-4879-429c-86e1-9806a6c69ce8")
+	)
+	(pad "2" smd rect
+		(at -0.85 3.45 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e589f167-0616-4d7d-9887-2dadbc385e79")
+	)
+	(pad "2" smd rect
+		(at 0.85 1.55 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec2f4374-bd38-47fc-ae50-3064dfdaa762")
+	)
+	(pad "2" smd rect
+		(at 0.85 3.45 90)
+		(size 1.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f86cb68-7ebe-4327-b994-f3edb89cf299")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
