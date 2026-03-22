@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ff3225b4-14ad-46eb-973f-856c1bfde45c")
 	(paper "A4")
 	(lib_symbols)
@@ -15,7 +15,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 892570bd-51ca-48c1-b250-6f2f71835c90)
+		(uuid "892570bd-51ca-48c1-b250-6f2f71835c90")
 	)
 	(text "Testpoint Pattern"
 		(exclude_from_sim no)
@@ -6313,6 +6313,7 @@
 			2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
 			2.54 2.54
 		)
+		(uuid "6c0daa09-1f4c-427c-8c13-d78356a2035f")
 		(cells
 			(table_cell "Testpoint"
 				(exclude_from_sim no)
@@ -7760,11 +7761,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a64ab732-9f33-462c-814c-539dfc69ca20")
 		(property "Sheetname" "ASIC_PWR_NFC"
 			(at 149.86 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,6 +7777,8 @@
 		)
 		(property "Sheetfile" "asic_pwr.kicad_sch"
 			(at 149.86 83.7696 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,11 +7807,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d5cc4719-92ab-4cf5-be26-e3fcdc26a39e")
 		(property "Sheetname" "BT_SOC"
 			(at 168.91 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,6 +7823,8 @@
 		)
 		(property "Sheetfile" "bt_soc.kicad_sch"
 			(at 168.91 120.5996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,26 +7835,6 @@
 		(pin "{SPI}" bidirectional
 			(at 168.91 104.14 180)
 			(uuid "d621ae04-a14d-4920-86c7-a6eed6a6d242")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIB_INT" output
-			(at 168.91 107.95 180)
-			(uuid "96c2c475-6b5e-4454-963d-8babd491bc31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIB_EN" output
-			(at 168.91 110.49 180)
-			(uuid "8b8f45d4-eaf8-4e95-9862-db99377c3891")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,6 +7855,26 @@
 		(pin "GPIO5" bidirectional
 			(at 168.91 115.57 180)
 			(uuid "d327fa95-d41f-45a8-8d35-f9bafc4b3250")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACEL_INT" input
+			(at 168.91 107.95 180)
+			(uuid "e9452049-ac12-4f6b-aaea-0b730c49622d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACEL_EN" output
+			(at 168.91 110.49 180)
+			(uuid "b8491035-ee61-42f5-9afc-223399c8c00e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,11 +7903,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f8e7219f-f7b2-4e48-9dcb-10b562f2b9c1")
 		(property "Sheetname" "ASIC_SENSE"
 			(at 132.08 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,6 +7919,8 @@
 		)
 		(property "Sheetfile" "asic.kicad_sch"
 			(at 132.08 120.5996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,16 +7931,6 @@
 		(pin "{SPI}" bidirectional
 			(at 153.67 104.14 0)
 			(uuid "3ba1bc2d-0a16-48d8-9c75-2637240f06e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIB_EN" input
-			(at 153.67 110.49 0)
-			(uuid "ae05562d-3fba-4761-960f-7830a6563f83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,9 +7958,19 @@
 				(justify right)
 			)
 		)
-		(pin "VIB_INT" output
+		(pin "ACEL_INT" output
 			(at 153.67 107.95 0)
-			(uuid "62a84c0b-7f64-4194-947a-83b6b32b1c87")
+			(uuid "f35cbd4a-b771-4611-8411-74e83a43612d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACEL_EN" input
+			(at 153.67 110.49 0)
+			(uuid "47582756-af72-4d09-9ce5-51fe26c160b3")
 			(effects
 				(font
 					(size 1.27 1.27)

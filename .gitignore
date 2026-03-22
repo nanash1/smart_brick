@@ -1,2 +1,4 @@
 lego_smart_brick-backups
 *.lck
+*.history
+*.bak
